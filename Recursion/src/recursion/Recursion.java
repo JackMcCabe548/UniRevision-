@@ -18,4 +18,13 @@ public class Recursion {
         // TODO code application logic here
     }
     
+    public void Checkthis() {
+    int a = 0;
+    a += 4;
+    while(a <= 96){
+        Checkthis();
+    }
+    
+} 
+    
 }
