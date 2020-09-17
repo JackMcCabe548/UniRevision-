@@ -21,7 +21,9 @@ public class Recursion {
     public void Checkthis() {
     int a = 0;
     a += 4;
+        System.out.println(a);
     while(a <= 96){
+        System.out.println(a);
         Checkthis();
     }
     
